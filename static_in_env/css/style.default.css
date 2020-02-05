@@ -112,7 +112,7 @@ Bootstrap Temple Blog Template
   }
   
   .category a {
-    color: #2b90d9;
+    color: purple;
     letter-spacing: 0.08em;
     font-weight: 700;
     text-transform: uppercase;
@@ -407,11 +407,11 @@ Bootstrap Temple Blog Template
   }
   
   a.hero-link:hover {
-    color: #2b90d9 !important;
+    color: purple !important;
   }
   
   a.hero-link:hover::after {
-    background: #2b90d9;
+    background: purple;
   }
   
   div[class*="-btn"] {
@@ -593,12 +593,11 @@ Bootstrap Temple Blog Template
   }
   
   .navbar .navbar-nav a.nav-link:hover {
-    color: #2b90d9;
+    color: purple;
   }
   
   .navbar .navbar-nav a.nav-link.active {
-    color: #2b90d9;
-    font-weight: bold;
+    color: purple;
   }
   
   /* Navbar Media Query ------------------------------------- */
@@ -850,7 +849,7 @@ Bootstrap Temple Blog Template
   }
   
   .post .category a {
-    color: #2b90d9;
+    color: purple;
     letter-spacing: 0.05em;
     font-weight: 700;
     text-transform: uppercase;
@@ -1374,13 +1373,13 @@ Bootstrap Temple Blog Template
   }
   
   .blog-post .posts-nav a:hover {
-    border-color: #2b90d9;
+    border-color: purple;
   }
   
   .blog-post .posts-nav a:hover .icon {
-    background: #2b90d9;
+    background: purple;
     color: #fff;
-    border-color: #2b90d9;
+    border-color: purple;
   }
   
   .blog-post .icon {
@@ -1604,7 +1603,7 @@ Bootstrap Temple Blog Template
     padding-bottom: 0.5rem;
     margin-right: 1rem;
     font-size: 2rem;
-    color:rgb(63, 8, 63);
+    color:black;
     font-weight: bold;
   }
   
@@ -1621,7 +1620,7 @@ Bootstrap Temple Blog Template
   }
   
   .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(148, 123, 123, 0.9);
   }
   
   .navbar-light .navbar-nav .nav-link {
@@ -1722,8 +1721,8 @@ Bootstrap Temple Blog Template
   
   .btn-primary {
     color: #fff;
-    background-color: #2b90d9;
-    border-color: #2b90d9;
+    background-color: purple;
+    border-color: purple;
   }
   
   .btn-primary:hover {
