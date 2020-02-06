@@ -3,6 +3,7 @@
 from django.conf import settings
 from django.db import migrations, models
 import django.db.models.deletion
+import tinymce.models
 
 
 class Migration(migrations.Migration):
@@ -36,10 +37,13 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=100)),
                 ('overview', models.TextField()),
                 ('timestamp', models.DateTimeField(auto_now_add=True)),
-                ('comment_count', models.IntegerField(default=0)),
+                ('content', tinymce.models.HTMLField()),
                 ('thumbnail', models.ImageField(upload_to='')),
+                ('featured', models.BooleanField()),
                 ('author', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='posts.Author')),
                 ('categories', models.ManyToManyField(to='posts.Category')),
+                ('next_post', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='next', to='posts.Post')),
+                ('previous_post', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='previous', to='posts.Post')),
             ],
         ),
     ]
