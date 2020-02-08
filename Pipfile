@@ -42,6 +42,7 @@ MarkupSafe = "==1.1.1"
 Pillow = "==7.0.0"
 SQLAlchemy = "==1.3.13"
 Werkzeug = "==0.16.1"
+six = "*"
 
 [requires]
 python_version = "3.8"
