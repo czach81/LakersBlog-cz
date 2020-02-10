@@ -1,0 +1,1 @@
+web: gunicorn cz-blog-cap.wsgi
