@@ -1,1 +1,1 @@
-web: gunicorn cz-blog-cap.wsgi
+web: gunicorn src.wsgi
